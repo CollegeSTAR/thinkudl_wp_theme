@@ -1,0 +1,11 @@
+{
+  "name": "wordpress_theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  }
+}
