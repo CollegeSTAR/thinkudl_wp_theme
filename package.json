@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
+    "breakpoint-sass": "^2.7.1",
     "node-sass": "^4.9.4"
   },
   "scripts": {
-    "scss": "node-sass --watch scss -o css"
+    "scss": "node-sass --watch --resursive --include-path=node_modules/bourbon/core --include-path=node_modules/breakpoint-sass/stylesheets  scss -o thinkudl_theme"
+  },
+  "dependencies": {
+    "bourbon": "^5.1.0",
+    "normalize.css": "^8.0.0"
   }
 }

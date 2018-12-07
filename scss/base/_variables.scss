@@ -1,0 +1,55 @@
+
+// Typography
+$base-font-family: 'Open Sans', sans-serif, ;
+$heading-font-family: 'Open Sans Condensed', sans-serif;
+$base-font-size: 1em;
+
+// Line height
+$base-line-height: 1.5em;
+$heading-line-height: 1.2em;
+
+// Other Sizes
+$base-border-radius: 4px;
+$base-spacing: 1.5em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+$header_background: #ffd938;
+$border_color: #e6e6e6;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $blue;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$viewport-background-color: #fff;
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+//Breakpoints
+$full: 960px;
+$min: 500px;
+
+//Bourbon Settings
+$bourbon: (
+  "modular-scale-base": 1.4 * $base-font-size,
+);
+

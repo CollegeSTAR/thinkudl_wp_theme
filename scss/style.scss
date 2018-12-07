@@ -1,0 +1,35 @@
+/*
+Theme Name: Think UDL
+Theme URI: https://github.com/CollegeSTAR/thinkudl_wp_theme
+Author: Tanner Jones
+Author URI: https://www.collegestar.org
+Description: The Think UDL theme is used for the thinkudl podcast website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: thinkudl, ThinkUDL, think udl 
+Text Domain: thinkudl
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "../node_modules/normalize.css/normalize";
+@import "bourbon";
+@import "breakpoint";
+@import "base/base";
+@import "partials/header";
+@import "partials/episodes";
+@import "partials/side_bar";
+
+#content_wrapper {
+  display: flex;
+  width: 100%;
+  min-width: 500px;
+  margin: 2em auto;
+  padding: 1em;
+  
+  @include breakpoint($full) {
+    width: 80%;
+  }
+}
