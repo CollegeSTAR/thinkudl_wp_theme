@@ -17,7 +17,11 @@ if ( $posts_array ) {
     setup_postdata( $post ); ?>
     <article class="episode_card">
       <div class="episode_thumbnail_wrapper">
-        <img src="<?php bloginfo('template_directory'); ?>/images/episode_thumb.png" />
+        <?php if ( has_post_thumbnail() ) {
+          the_post_thumbnail();
+        } else { ?>
+          <img src="<?php bloginfo('template_directory'); ?>/images/episode_thumb.png" />
+        <?php } ?>
       </div>
       <div class="episode_description_wrapper">
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

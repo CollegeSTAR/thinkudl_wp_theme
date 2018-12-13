@@ -542,10 +542,13 @@ section[id=episodes] {
   display: flex;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
+  box-shadow: 4px 4px 8px #e6e6e6;
   padding: 1em; }
   .episode_card .episode_thumbnail_wrapper {
     flex: 0 0 100px;
     margin: 0; }
+    .episode_card .episode_thumbnail_wrapper img {
+      border-radius: 16px; }
   .episode_card .episode_description_wrapper {
     flex: 4 400px;
     margin-left: 1em; }

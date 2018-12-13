@@ -7,11 +7,16 @@ section[id=episodes] {
   display: flex;
   border: 1px solid $border_color;
   border-radius: $base-border-radius;
+  box-shadow: 4px 4px 8px $border_color;
   padding: 1em;
 
   .episode_thumbnail_wrapper {
     flex: 0 0 100px;
     margin: 0;
+
+    img {
+      border-radius: 16px;
+    }
   }
 
   .episode_description_wrapper {
