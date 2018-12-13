@@ -550,6 +550,9 @@ section[id=episodes] {
     flex: 4 400px;
     margin-left: 1em; }
 
+#episode h1 {
+  display: block; }
+
 aside[id=links] {
   flex: 1; }
   aside[id=links] #podcast_subscriptions {
