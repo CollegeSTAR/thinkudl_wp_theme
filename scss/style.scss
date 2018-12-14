@@ -19,17 +19,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "breakpoint";
 @import "base/base";
 @import "partials/header";
+@import "partials/content";
+@import "partials/about";
 @import "partials/episodes";
 @import "partials/side_bar";
-
-#content_wrapper {
-  display: flex;
-  width: 100%;
-  min-width: 500px;
-  margin: 2em auto;
-  padding: 1em;
-  
-  @include breakpoint($full) {
-    width: 80%;
-  }
-}

@@ -8,6 +8,10 @@
     );
     $posts_array = get_posts( $args );
 ?>
+<section id="about">
+  <p>ThinkUDL is a podcast about Universal Design for Learning where we hear from the people who are designing and implementing strategies in post-secondary settings with learner variability in mind.</p>
+  <p>Join host, Lillian Nave, as she discovers not just <strong>WHAT</strong> her guests are teaching, learning, guiding and facilitating, but <strong>HOW</strong> they design and implement it, and <strong>WHY</strong> it even matters!</p>
+</section>
 <section id="episodes">
   <h1>Episodes</h1>
   <div id="episodes_wrapper">

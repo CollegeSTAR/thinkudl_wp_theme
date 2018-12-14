@@ -1,0 +1,29 @@
+#content_wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);  
+  width: 100%;
+  min-width: 500px;
+  margin: 2em auto;
+  padding: 1em;
+  
+  @include breakpoint($full) {
+    width: 80%;
+  }
+}
+
+section[id="about"] {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+section[id="episodes"] {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+aside[id="links"] {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}

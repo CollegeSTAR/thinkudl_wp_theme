@@ -3,6 +3,7 @@ header {
   padding: 0;
   margin: 0;
   background-color: $header_background;
+  border-bottom: 2px solid $base_border_color;
 
   #logo_wrapper {
     width: 100%;
