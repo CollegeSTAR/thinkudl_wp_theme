@@ -1,8 +1,34 @@
-aside[id=links] {
+#links {
+  h1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
   #podcast_subscriptions {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 2em;
   }
 
   #social_media {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .platform_icon {
+    flex: 1;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .social_icon {
+    flex: 1 40px;
+    max-width: 40px;
+
+    img {
+      width: 25px;
+    }
   }
 
   @include breakpoint($full) {

@@ -482,11 +482,8 @@ td {
 html {
   color: #333;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em; }
-  @media (min-width: 960px) {
-    html {
-      font-size: 1.25em; } }
 
 h1,
 h2,
@@ -558,8 +555,6 @@ header {
   grid-template-columns: 1fr;
   grid-gap: 1em;
   grid-auto-rows: minmax(100px, auto);
-  width: 100%;
-  min-width: 500px;
   margin: 1em auto 2em auto;
   padding: 1em; }
   @media (min-width: 960px) {
@@ -606,6 +601,30 @@ header {
 #episode h1 {
   display: block; }
 
+#links h1 {
+  width: 100%;
+  margin-bottom: 10px; }
+
+#links #podcast_subscriptions {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 2em; }
+
+#links #social_media {
+  display: flex;
+  flex-flow: row wrap; }
+
+#links .platform_icon {
+  flex: 1; }
+  #links .platform_icon img {
+    height: 50px; }
+
+#links .social_icon {
+  flex: 1 40px;
+  max-width: 40px; }
+  #links .social_icon img {
+    width: 25px; }
+
 @media (min-width: 960px) {
-  aside[id=links] {
+  #links {
     padding-left: 4em; } }

@@ -43,11 +43,28 @@
   <aside id="links">
     <section id="podcast_subscriptions">
       <h1>Subscribe</h1>
-      <p>Podcast links here</p>
+      <div class="platform_icon">
+        <a href="https://itunes.apple.com/us/podcast/think-udl/id1445933224" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/platforms/apple_icon.png" /></a>
+      </div>
+      <div class="platform_icon">
+        <a href="https://play.google.com/music/m/I2hi3ppbvl44w4kmakrltrare3e?t=Think_UDL" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/platforms/google-play-badge.png" /></a>
+      </div>
+
     </section>
     <section id="social_media">
       <h1>Follow Us</h1>
-      <p>Social Media Links here.</p>
+      <div class="social_icon">
+        <a href="https://www.facebook.com/Think-UDL-1030019387173268/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/social/fb_icon.png" /></a>
+      </div>
+      <div class="social_icon">
+        <img src="<?php bloginfo('template_directory'); ?>/images/icons/social/ig_icon.png" />
+      </div>
+      <div class="social_icon">
+        <a href="https://twitter.com/thinkudl" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/social/twitter_icon.png" /></a>
+      </div>
+      <div class="social_icon">
+        <img src="<?php bloginfo('template_directory'); ?>/images/icons/social/yt_icon.png" />
+      </div>
     </section>
   </aside>
 </div>

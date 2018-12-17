@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300,600" rel="stylesheet">
     <?php wp_head(); ?>
-    <title>Welcome to Think UDL!</title>
+    <title><?php wp_title(' | ', 'echo', 'right'); ?><?php bloginfo('name'); ?></title>
   </head>
   <body>
     <header>

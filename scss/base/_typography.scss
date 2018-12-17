@@ -1,12 +1,8 @@
 html {
   color: $base-font-color;
   font-family: $base-font-family;
-  font-size: 1.5 * $base-font-size;
+  font-size: 1.25 * $base-font-size;
   line-height: $base-line-height;
-  
-  @include breakpoint($full) {
-    font-size: 1.25 * $base-font-size;
-  }
 }
 
 h1,
