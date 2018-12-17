@@ -1,0 +1,20 @@
+#breadcrumb {
+  margin: 0 auto;
+  padding: 0 1em;
+  width: 100%;
+  font-size: .75 * $base-font-size;
+
+  @include breakpoint($full) {
+    width: 80%;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $blue;
+
+    &:hover {
+      color: darken($blue, 20%);
+    }
+  }
+}

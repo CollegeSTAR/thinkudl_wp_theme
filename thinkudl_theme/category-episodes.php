@@ -8,12 +8,11 @@
     );
     $posts_array = get_posts( $args );
 ?>
+<section id="breadcrumb">
+  <a href="/">Home</a> &raquo; Episodes
+</section>
 <div id="content_wrapper">
-  <section id="about">
-    <p>ThinkUDL is a podcast about Universal Design for Learning where we hear from the people who are designing and implementing strategies in post-secondary settings with learner variability in mind.</p>
-    <p>Join host, Lillian Nave, as she discovers not just <strong>WHAT</strong> her guests are teaching, learning, guiding and facilitating, but <strong>HOW</strong> they design and implement it, and <strong>WHY</strong> it even matters!</p>
-  </section>
-  <section id="latest_episodes">
+  <section id="episodes_index">
     <h1>Latest Episodes</h1>
     <div id="episodes_wrapper">
   <?php 
@@ -40,15 +39,5 @@
   ?>
     </div>
   </section>
-  <aside id="links">
-    <section id="podcast_subscriptions">
-      <h1>Subscribe</h1>
-      <p>Podcast links here</p>
-    </section>
-    <section id="social_media">
-      <h1>Follow Us</h1>
-      <p>Social Media Links here.</p>
-    </section>
-  </aside>
 </div>
 <?php get_footer(); ?>

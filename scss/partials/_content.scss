@@ -1,29 +1,39 @@
 #content_wrapper {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
   grid-auto-rows: minmax(100px, auto);  
   width: 100%;
   min-width: 500px;
-  margin: 2em auto;
+  margin: 1em auto 2em auto;
   padding: 1em;
   
   @include breakpoint($full) {
     width: 80%;
+    grid-template-columns: 3fr 1fr;
   }
 }
 
-section[id="about"] {
+#about {
   grid-column: 1;
   grid-row: 1;
 }
 
-section[id="episodes"] {
+#latest_episodes {
   grid-column: 1;
   grid-row: 2;
 }
 
-aside[id="links"] {
-  grid-column: 2;
-  grid-row: 1 / span 2;
+#episodes_index {
+  grid-column: 1 / span 2;
+}
+
+#links {
+   grid-column: 1;
+   grid-row: 3;
+
+  @include breakpoint($full) {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
 }

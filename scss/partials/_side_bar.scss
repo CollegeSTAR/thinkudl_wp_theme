@@ -1,10 +1,11 @@
 aside[id=links] {
-  
   #podcast_subscriptions {
-    text-align: right;
   }
 
   #social_media {
-    text-align: right;
+  }
+
+  @include breakpoint($full) {
+    padding-left: 4em; 
   }
 }
