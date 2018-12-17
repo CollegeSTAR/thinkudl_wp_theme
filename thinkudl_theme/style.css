@@ -563,17 +563,21 @@ header {
       grid-template-columns: 3fr 1fr; } }
 
 #about {
+  float: left;
   grid-column: 1;
   grid-row: 1; }
 
 #latest_episodes {
+  float: left;
   grid-column: 1;
   grid-row: 2; }
 
 #episodes_index {
+  float: left;
   grid-column: 1 / span 2; }
 
 #links {
+  float: right;
   grid-column: 1;
   grid-row: 3; }
   @media (min-width: 960px) {
@@ -615,11 +619,13 @@ header {
   flex-flow: row wrap; }
 
 #links .platform_icon {
+  float: left;
   flex: 1; }
   #links .platform_icon img {
     height: 50px; }
 
 #links .social_icon {
+  float: left;
   flex: 1 40px;
   max-width: 40px; }
   #links .social_icon img {

@@ -13,20 +13,24 @@
 }
 
 #about {
+  float: left;
   grid-column: 1;
   grid-row: 1;
 }
 
 #latest_episodes {
+  float: left;
   grid-column: 1;
   grid-row: 2;
 }
 
 #episodes_index {
+  float: left;
   grid-column: 1 / span 2;
 }
 
 #links {
+   float: right;
    grid-column: 1;
    grid-row: 3;
 
