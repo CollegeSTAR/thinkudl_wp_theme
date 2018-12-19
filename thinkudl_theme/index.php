@@ -57,7 +57,7 @@
         <a href="https://www.facebook.com/Think-UDL-1030019387173268/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/social/fb_icon.png" /></a>
       </div>
       <div class="social_icon">
-        <img src="<?php bloginfo('template_directory'); ?>/images/icons/social/ig_icon.png" />
+        <a href="https://www.instagram.com/thinkudl/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/social/ig_icon.png" /></a>
       </div>
       <div class="social_icon">
         <a href="https://twitter.com/thinkudl" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/social/twitter_icon.png" /></a>
