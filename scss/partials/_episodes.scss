@@ -4,6 +4,7 @@
   border-radius: $base-border-radius;
   box-shadow: 4px 4px 8px $border_color;
   padding: 1em;
+  margin-top: 1em;
 
   .episode_thumbnail_wrapper {
     flex: 0 0 100px;
@@ -21,6 +22,13 @@
     a {
       text-decoration: none;
     }
+  }
+}
+
+#episode_wrapper {
+  grid-column: 1 / span 4;
+
+  #episode_image-wrapper {
   }
 }
 

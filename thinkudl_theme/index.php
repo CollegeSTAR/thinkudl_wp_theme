@@ -49,6 +49,9 @@
       <div class="platform_icon">
         <a href="https://play.google.com/music/m/I2hi3ppbvl44w4kmakrltrare3e?t=Think_UDL" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/platforms/google-play-badge.png" /></a>
       </div>
+      <div class="platform_icon">
+        <a href="https://www.stitcher.com/podcast/lillian-nave/thinkudl" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/platforms/stitcher_icon.png" /></a>
+      </div>
 
     </section>
     <section id="social_media">
