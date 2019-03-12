@@ -41,6 +41,12 @@
     </div>
   </section>
   <aside id="links">
+    <section id="navigation_links">
+      <ul>
+        <li><a href="about-think-udl">About</a></li>
+        <li><a href="episodes" >All Episodes</a></li>
+      </ul>
+    </section>
     <section id="podcast_subscriptions">
       <h1>Subscribe</h1>
       <div class="platform_icon">

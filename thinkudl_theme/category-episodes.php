@@ -1,6 +1,6 @@
 <?php get_header();
       $args = array(
-      'posts_per_page' => 5,
+      'posts_per_page' => 10,
       'offset'         => 0,
       'category_name'  => 'episodes',
       'orderby'        => 'date',
